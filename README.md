@@ -1,7 +1,10 @@
-Student Enrollment Form using JPDB
+**Student Enrollment Form using JPDB**
+
 This project is a Student Enrollment Form that uses JsonPowerDB (JPDB) as the backend for storing and managing student data. It allows users to enroll students by filling out a form and perform operations like saving, updating, and resetting student records.
 
-Features
+
+**Features**
+
 Student Information Management: Store and retrieve student details, including:
 Roll Number (Primary Key)
 Full Name
@@ -9,7 +12,10 @@ Class
 Birth Date
 Address
 Enrollment Date
-CRUD Operations:
+
+
+**CRUD Operations:**
+
 Save: Adds a new student record.
 Update: Modifies existing student data.
 Reset: Clears the form fields for new data entry.
@@ -23,10 +29,15 @@ Backend: JsonPowerDB (JPDB) for storing and retrieving data.
 Libraries:
 Bootstrap 3.4.1 (Responsive design)
 jQuery 3.5.1 (AJAX handling)
-What is JsonPowerDB (JPDB)?
+
+
+**What is JsonPowerDB (JPDB)?**
+
 JsonPowerDB (JPDB) is a high-performance, real-time, and lightweight NoSQL database designed to simplify backend development. It provides a JSON-based storage system, making it easy to interact with data through simple HTTP API calls.
 
-Key Features of JPDB:
+
+**Key Features of JPDB:**
+
 JSON-Centric: Stores and retrieves data in JSON format, simplifying data manipulation.
 Easy Integration: Directly accessible via REST APIs, making it highly compatible with web applications.
 Schema-Free: No predefined schema; flexible and adaptive data models.
@@ -38,7 +49,9 @@ Scalable: Supports small and large data sets effectively.
 Simple CRUD Operations: Easily manage data using basic HTTP requests.
 Learn more about JsonPowerDB on their official website.
 
-Prerequisites
+
+**Prerequisites**
+
 A modern web browser (Chrome, Firefox, etc.).
 Internet access to fetch resources from CDNs (Bootstrap, jQuery, JPDB).
 Setup
@@ -49,7 +62,8 @@ Copy code
 git clone https://github.com/your-username/student-enrollment-form.git
 Open the index.html file in your browser to view and interact with the form.
 
-How It Works
+**How It Works**
+
 1. Filling Out the Form
 Enter a unique Roll Number to either add or update a student record.
 Upon entering an existing roll number, the form automatically fetches the student’s details from JPDB.
@@ -67,7 +81,7 @@ Copy code
 ├── index.html           # Main HTML file containing the form
 ├── index.js             # JavaScript file for form logic and data operations
 ├── README.md            # Project overview
-└── /assets              # Additional resources (optional)
+
 API Documentation (JPDB)
 This project uses JPDB’s REST API for all data operations, including:
 
@@ -86,7 +100,9 @@ Copy code
    "cmd": "PUT / GET / UPDATE",
    "jsonStr": { /* JSON data */ }
 }
+
 Refer to the JPDB API Documentation here for more details.
+https://login2explore.com/jpdb/docs.html
 
 How to Contribute
 Fork the repository.
